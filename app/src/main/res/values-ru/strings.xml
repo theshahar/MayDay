@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="loading">загрузка</string>
+    <string name="title_activity_maps">карта</string>
+    <string name="i_am_here">Я здесь</string>
+    <string name="hospital_places">Больницы</string>
+    <string name="police_places">Полицейские участки</string>
+    <string name="fire_station_places">пожарные станции</string>
+
+
+
+    <string name="ambulance">скорая помощь</string>
+    <string name="police">Полиция</string>
+    <string name="fire_dep">Пожарная часть</string>
+    <string name="emergency">Крайняя необходимость</string>
+    <string name="map">карта</string>
+
+    <string name="your_location">Ваше местоположение</string>
+
+    <string name="update">Обновить</string>
+    <string name="delete">Удалить</string>
+    <string name="emergency_call">Экстренный вызов</string>
+    <string name="add_new_contact">Добавить новый контакт</string>
+    <string name="undo">расстегивать</string>
+    <string name="add">Добавить</string>
+    <string name="name_hint">имя</string>
+    <string name="country_code">Код страны</string>
+    <string name="phone_number">Номер телефона</string>
+    <string name="update_contact">Обновить контакт</string>
+    <string name="contact_deleted">Контакт удален</string>
+    <string name="location_message">разрешение Расположение необходим для запуска Майдэй правильно</string>
+    <string name="camera_message">Разрешение камеры необходим для запуска Майдэй правильно</string>
+    <string name="permission_not_granted">Разрешение не предоставляется</string>
+    <string name="image_taken_saved">Изображение успешно сохранены</string>
+    <string name="error_saving_image">Ошибка при сохранении фото</string>
+    <string name="choose_app">Выберите приложение</string>
+    <string name="contact_updated">Контактная обновление</string>
+    <string name="new_contact_added">Контакт добавлен</string>
+    <string name="message_missing_fields">Все поля обязательны для заполнения</string>
+
+    <string name="gps_msg">Посетите настройки устройства и включите местоположение в \'Высокая точность\' режим</string>
+
+    <!-- Menu -->
+    <string name="camera">камера</string>
+    <string name="flash_light">Фонарик</string>
+    <string name="your_contacts">Ваши контактные данные</string>
+    <string name="email_us">Свяжитесь с нами по электронной почте</string>
+    <string name="list_countries">Список стран</string>
+    <string name="gps_title">Майдэй требуется Расположение</string>
+
+    <string name="gps_setting">настройки</string>
+    <string name="gps_cancel">Отмена</string>
+    <string name="gps_error">Расположение отключен</string>
+    <string name="contact_msg">Добавьте ваши экстренные контакты, такие как: семья, друзья, страховое агентство и многое другое
+    </string>
+    <string name="query_hint">Поиск  на русском языке</string>
+    <string name="mas_no_flashlight">Ошибка с фонариком</string>
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,102 @@
+<android.support.v4.widget.SwipeRefreshLayout
+    android:id="@+id/swipeToRefresh"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_app"
+                tools:context=".fragments.OneCallFragment">
+
+    <View
+        android:id="@+id/reveal_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="5dp"
+        android:visibility="invisible"
+
+        />
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="20dp" android:layout_marginRight="20dp"
+                  android:layout_marginTop="80dp" android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/emCard"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:clickable="true"
+            android:elevation="2dp"
+            card_view:cardCornerRadius="10dp"
+            >
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:background="@drawable/ambulance_back"
+                          android:orientation="horizontal">
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/emergency"
+                    android:textColor="@color/white_color"
+                    android:textSize="23sp" android:textStyle="bold" android:id="@+id/textView2"
+                    android:lines="3" android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/all_three" android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/textView2"/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/txtYourLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp" android:alpha="0.54"
+            android:text="@string/your_location"
+            android:textColor="@color/black_color" android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txtAddressCord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp" android:alpha="0.54"
+            android:textColor="@color/black_color" android:textSize="16sp"
+            android:textStyle="bold"/>
+        <TextView
+
+            android:id="@+id/txtAddressFull"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:alpha="0.54"
+            android:gravity="center_vertical|center_horizontal"
+            android:lines="2" android:textColor="@color/black_color"
+            android:textSize="16sp" android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+</android.support.v4.widget.SwipeRefreshLayout>
+
+

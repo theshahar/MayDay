@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_flashlight"
+            android:icon="@drawable/ic_highlight_black"
+            android:title="@string/flash_light"/>
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/camera"/>
+        <item
+            android:id="@+id/nav_contacts"
+            android:icon="@drawable/ic_people_black"
+            android:title="@string/your_contacts"/>
+
+
+        <item
+            android:id="@+id/nav_list_countries"
+            android:icon="@drawable/ic_list_black"
+            android:title="@string/list_countries"/>
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_send_mail"
+                android:icon="@drawable/ic_email_black"
+                android:title="@string/email_us"/>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:background="@drawable/background_app"
+              tools:context="com.sgapps.shaharraz.mayday.fragments.ListCountriesFragment"
+              android:orientation="vertical">
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white_color"
+        android:queryHint="@string/query_hint"
+        android:id="@+id/srcCountry" android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" android:layout_marginRight="10dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/countriesList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

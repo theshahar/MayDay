@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white_color"
+              android:orientation="vertical"
+              tools:context="com.sgapps.shaharraz.mayday.fragments.MapFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_margin="10dp"
+        >
+        <CheckBox
+            android:id="@+id/policeSelect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/police_background_end" android:checked="false"
+            android:elevation="5dp"
+            android:text="@string/police_places"/>
+        <CheckBox
+            android:id="@+id/fireSelect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top"
+            android:buttonTint="@color/fire_background_end" android:checked="false"
+            android:elevation="5dp"
+            android:text="@string/fire_station_places"/>
+        <CheckBox
+            android:id="@+id/hospitalSelect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:buttonTint="@color/ambulance_background_end" android:checked="false"
+            android:elevation="5dp"
+            android:text="@string/hospital_places"/>
+    </FrameLayout>
+
+
+    <fragment android:id="@+id/map"
+              android:name="com.google.android.gms.maps.SupportMapFragment"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"/>
+
+</LinearLayout>

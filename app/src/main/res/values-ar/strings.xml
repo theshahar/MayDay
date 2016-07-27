@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add">ضافة</string>
+    <string name="add_new_contact">إضافة جهة اتصال جديدة</string>
+    <string name="ambulance">سيارة إسعاف</string>
+    <string name="camera">الكاميرا</string>
+    <string name="choose_app">اختر التطبيق</string>
+    <string name="contact_deleted">حذف جهة اتصال</string>
+    <string name="contact_updated">تحديث جهة الاتصال</string>
+    <string name="camera_message">هناك حاجة إلى إذن الكاميرا لتشغيل استغاثة بشكل صحيح</string>
+    <string name="contact_msg">قم بإضافة جهات اتصال الطوارئ مثل: الأسرة والأصدقاء، ووكالة التأمين
+        والمزيد.
+    </string>
+    <string name="country_code">رمز البلد</string>
+    <string name="delete">حذف</string>
+    <string name="email_us">البريد الإلكتروني لنا</string>
+    <string name="emergency">حالات الطوارئ</string>
+    <string name="emergency_call">نداء الطوارئ</string>
+    <string name="error_saving_image">حدث خطأ أثناء حفظ الصورة</string>
+    <string name="fire_dep">قسم الأطفاء</string>
+    <string name="fire_station_places">مراكز الإطفاء</string>
+    <string name="flash_light">فالشلايت</string>
+    <string name="gps_cancel">إلغاء الأمر</string>
+    <string name="gps_error">الموقع هو تعطيل</string>
+    <string name="gps_msg">زيارة إعدادات الجهاز الخاص بك وقم بتشغيل الموقع إلى وضع دقة عالية
+    </string>
+    <string name="gps_setting">إعدادات</string>
+    <string name="gps_title">استغاثة يتطلب الموقع</string>
+    <string name="hospital_places">المستشفيات</string>
+    <string name="i_am_here">أنا هنا</string>
+    <string name="image_taken_saved">الصورة التي تم حفظها بنجاح</string>
+    <string name="list_countries">قائمة البلدان</string>
+    <string name="loading">تحميل</string>
+    <string name="location_message">الموقع إذن مطلوب لتشغيل استغاثة بشكل صحيح</string>
+    <string name="map">خريطة</string>
+    <string name="mas_no_flashlight">خطأ مع المصباح</string>
+    <string name="message_missing_fields">جميع الحقول إلزامية</string>
+    <string name="name_hint">الاسم</string>
+    <string name="new_contact_added">إضافة جهة اتصال</string>
+    <string name="permission_not_granted">إذن لا يمنح</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="police">الشرطة</string>
+    <string name="police_places">مراكز الشرطة</string>
+    <string name="query_hint">البحث باللغة الإنكليزية فقط</string>
+    <string name="title_activity_maps">خريطة</string>
+    <string name="undo">التراجع عن</string>
+    <string name="update">التحديث</string>
+    <string name="update_contact">تحديث جهة الاتصال</string>
+    <string name="your_contacts">جهات الاتصال الخاصة بك</string>
+    <string name="your_location">الموقع الخاص بك</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#D32F2F</color>
+    <color name="colorAccent">#448AFF</color>
+
+    <color name="white_color">#FFFFFF</color>
+    <color name="black_color">#000000</color>
+    <color name="ripple_color">#B6B6B6</color>
+    <color name="line_color">#BDBDBD</color>
+
+    <color name="ambulance_background_center">#C62828</color>
+    <color name="ambulance_background_end">#B71C1C</color>
+    <color name="ambulance_background_start">#EF5350</color>
+
+    <color name="app_background_center">#BDBDBD</color>
+    <color name="app_background_end">#757575</color>
+    <color name="app_background_start">#E0E0E0</color>
+
+
+    <color name="fire_background_center">#F57C00</color>
+    <color name="fire_background_end">#E65100</color>
+    <color name="fire_background_start">#FFA726</color>
+
+    <color name="police_background_center">#1565C0</color>
+    <color name="police_background_end">#0D47A1</color>
+    <color name="police_background_start">#1E88E5</color>
+
+
+</resources>
+
